@@ -13,9 +13,9 @@ const Navigation = props => (
                 </div>
                 <div className="collapse navbar-collapse">
                     <ul className="nav navbar-nav">
-                        <li className="nav-item"><Link className="nav-link" to="/countries">Countries</Link></li>
-                        <li className="nav-item"><Link className="nav-link" to="/continents">Continents</Link></li>
-                        <li className="nav-item"><Link className="nav-link" to="/contact">Contact</Link></li>
+                        <li className="nav-item"><Link className="nav-link" to="/countries">Kraje</Link></li>
+                        <li className="nav-item"><Link className="nav-link" to="/continents">Kontynenty</Link></li>
+                        <li className="nav-item"><Link className="nav-link" to="/contact">Kontakt</Link></li>
                     </ul>
                 </div>
             </div>
