@@ -6,16 +6,16 @@ import 'bootstrap/dist/css/bootstrap.css';
 
 const Navigation = props => (
     <div>
-        <nav className="navbar navbar-default">
+        <nav className="navbar navbar-expand navbar-default">
             <div className="container-fluid">
                 <div className="navbar-header">
                     <Link className="navbar-brand" to="/">Państwa.js</Link>
                 </div>
                 <div className="collapse navbar-collapse">
                     <ul className="nav navbar-nav">
-                        <li><Link to="/countries">Countries</Link></li>
-                        <li><Link to="/continents">Continents</Link></li>
-                        <li><Link to="/contact">Contact</Link></li>
+                        <li className="nav-item"><Link className="nav-link" to="/countries">Countries</Link></li>
+                        <li className="nav-item"><Link className="nav-link" to="/continents">Continents</Link></li>
+                        <li className="nav-item"><Link className="nav-link" to="/contact">Contact</Link></li>
                     </ul>
                 </div>
             </div>
